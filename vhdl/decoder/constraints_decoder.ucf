@@ -1,0 +1,13 @@
+# ==== Slide Switches (SW) ====
+NET "A" LOC = "L13" | IOSTANDARD = LVTTL | PULLUP ;
+NET "B" LOC = "L14" | IOSTANDARD = LVTTL | PULLUP ;
+
+# ==== Discrete LEDs (LED) ====
+# These are shared connections with the FX2 connector
+NET "S(0)" LOC = "F12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "S(1)" LOC = "E12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "S(2)" LOC = "E11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "S(3)" LOC = "F11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+
+# ==== Pushbuttons (BTN) ====
+NET "R" LOC = "H13" | IOSTANDARD = LVTTL | PULLDOWN ;

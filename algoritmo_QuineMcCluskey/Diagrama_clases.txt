@@ -1,0 +1,28 @@
+Clases
+	Tabla
+		Atributos:
+			-cantidadVariables:int
+			-[]arraySalida:int
+			-[]arrayMaxterminos:int
+		Métodos:
+			+Tabla(cantidadVariables:int)
+			+leerSalida():void
+			+getCantidadVariables():int
+			+setCantidadVariables(int):void
+			-generarMaxterminosArray():void
+			+~Tabla() //libera los vectores/arreglos
+
+	Estructura
+		Atributos:
+			-cantidadVariables:int
+			-[]arrayTerminos:Ext
+		Funciones
+			+Estructura(cantidadVariables:int)
+			+generarEstructura:void //genera el arreglo de estructuras
+			+rellenarEstructura:void(minterminos:<int>vector)
+			+~Estructura
+
+	Minimizador
+		Atributos:
+
+		Métodos
